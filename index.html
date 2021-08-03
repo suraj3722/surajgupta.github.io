@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--==================== UNICONS ====================-->
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/thinline.css">"> -->
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="./swiper-bundle.min.css" />
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Responsive Portfolio Website</title>
+</head>
+
+<body>
+
+    <!-- ==================PRELOADER===================== -->
+    <div class="loader">
+        <img src="./infi.gif" alt="">
+    </div>
+    <!--==================== HEADER ====================-->
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">MY WEB</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home nav__icon"></i>Home
+              </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link active-link">
+                <i class="bx bxs-user nav__icon" ></i
+                >About
+              </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                <i class="bx bx-file nav__icon"></i>Skills
+              </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                <i class='bx bx-library nav__icon'></i>Services
+              </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                <i class="bx bxs-briefcase nav__icon"></i>Portfolio
+              </a>
+                    </li>
+
+
+                    <li class="nav__item">
+                        <a href="#footer" class="nav__link">
+                <i class="bx bx-mail-send nav__icon"></i>Contact
+              </a>
+                    </li>
+                </ul>
+                <i class="bx bx-x nav__close" id="nav-close"></i>
+            </div>
+
+
+
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class='bx bx-moon change-theme ' style="color: rgb(90, 65, 201);" id="theme-button"></i>
+
+
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bx bxs-category-alt"></i>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/suraj-gupta-1723901b6/" class="home__social-icon">
+                <i class="bx bxl-linkedin-square"></i>
+              </a>
+
+                        <a href="https://github.com/" class="home__social-icon">
+                <i class="bx bxl-github"></i>
+              </a>
+
+                         <a href="https://www.instagram.com/surajgupta03722/" class="home__social-icon">
+                <i class="bx bxl-instagram"></i>
+              </a> 
+                    </div>
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image
+                    class="home__blob-img"
+                    x="12"
+                    y="18"
+                    xlink:href="./suraj3.png"
+                  />
+                </g>
+              </svg>
+                    </div>
+                    <div class="home__data">
+                        <h1 class="home__title">Hello, I am Suraj</h1>
+                        <h3 class="home__subtitle"> <strong>Future</strong>, <br> Software Engineer, Development and Data scientist</h3>
+                        <p class="home__description">
+                            CODER | WEB DEVELOPER | UI/UX DESIGNER | EDITOR | YOUTUBER | DIGITAL MARKETING <em>Beginner</em>
+                        </p>
+                        <a href="mailto:surajgupta91183722@gmail.com" class="button button--flex">
+                Contact <i class="bx bx-send" style="color: #09ff3e"></i>
+              </a>
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+              <i
+                class="bx bx-mouse home__scroll-mouse"
+                style="color: #000000"
+              ></i>
+              <span class="home__scroll-name">Scroll down</span>
+              <i
+                class="bx bxs-down-arrow home__scroll-arrow"
+                style="color: #321cf2"
+              ></i>
+            </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title">About ME</h2>
+            <span class="section__subtitle">My Intrduction</span>
+
+            <div class="about__container container grid">
+                <img src="./321.jpg" class="about__img" alt="" />
+
+                <div class="about__data">
+                    <p class="about__description">
+                        Hello, I am Suraj gupta currently pursuing Bachelor's Degree in Bsc(Physics,chemistry,math) at JNCU, Ballia
+                        <br> Beginner in Web Design and Development knowledge Competetive Coder, Editor, producing quality work.
+                        <br> And i am also Gamer , Youtuber , <em>Future</em> freelancer.
+                    </p>
+
+                    <div class="about_-info">
+                        <div>
+                            <span class="about__info-title"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My Technical Level </span>
+
+            <div class="skills__container container grid">
+                <div>
+                    <!-- ==========Skills 1===== -->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="bx bx-code-curly skills_icon"></i>
+                            <div>
+                                <h1 class="skills__title">FrontEnd</h1>
+                                <span class="skills__subtitle">Intermediate </span>
+                            </div>
+                            <i class="bx bxs-down-arrow-alt skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__number">75%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__number">75%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__number">20%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ==========Skills 2===== -->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="bx bxs-data"></i>
+                            <div>
+                                <h1 class="skills__title">BackEnd</h1>
+                                <span class="skills__subtitle">Yet to Start</span>
+                            </div>
+
+                            <i class="bx bxs-down-arrow-alt skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Version Control</h3>
+                                    <span class="skills__number">0%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__vc"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">DataBase</h3>
+                                    <span class="skills__number">0%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__db"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Django</h3>
+                                    <span class="skills__number">0%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__dj"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ==========Skills 3===== -->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="bx bxs-bookmark-heart"></i>
+                            <div>
+                                <h1 class="skills__title">Programing Languages </h1>
+                                <span class="skills__subtitle">Beginner</span>
+                            </div>
+                            <i class="bx bxs-down-arrow-alt skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__py"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">C Language</h3>
+                                    <span class="skills__number">50%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__c"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">JAVA</h3>
+                                    <span class="skills__number">1%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__java"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section">
+            <h2 class="section__title">QUALIFICATION</h2>
+            <span class="section__subtitle">My personal Journey</span>
+
+            <div class="qual__container container">
+                <div class="qual__tabs">
+                    <div class="qual__button button--flex">
+                        <i class="bx bxs-graduation qual__icon"></i> Education
+                    </div>
+
+                    <div class="qual__button button--flex">
+                        <i class="bx bxs-briefcase-alt-2 qual__icon"></i> Work
+                    </div>
+                </div>
+                <div class="qual__sections">
+                    <!-- qual content 1 -->
+                    <div class="qual__content" data-content id="education">
+                        <!-- Qual 1st -->
+                        <div class="qual__data">
+                            <div>
+                                <h3 class="qual__title">SSC</h3>
+                                <span class="qual__subtitle">Maharshi valmiki vidya mandir <br>Ballia </span>
+                                <div class="qual__cal">
+                                    <i class="bx bxs-calendar-star"></i> 2016-2017
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qual__rounder"></span>
+                                <span class="qual__line"></span>
+                            </div>
+                        </div>
+
+                        <!-- Qual 2nd -->
+                        <div class="qual__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qual__rounder"></span>
+                                <span class="qual__line"></span>
+                            </div>
+                            <div>
+                                <h3 class="qual__title">---</h3>
+                                <span class="qual__subtitle">....</span>
+                                <div class="qual__cal">
+                                    <i class="bx bxs-calendar-star"></i> 20xx-20xx
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <!-- Qual 3rd -->
+                        <div class="qual__data">
+                            <div>
+                                <h3 class="qual__title">HSC</h3>
+                                <span class="qual__subtitle">Maharshi valmiki vidya mandir college <br>Ballia</span>
+                                <div class="qual__cal">
+                                    <i class="bx bxs-calendar-star"></i> 2017-2019
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qual__rounder"></span>
+                                <span class="qual__line"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- qual content 2 -->
+                    <div class="qual__content">
+                        <!-- Qual 4TH -->
+                        <div class="qual__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qual__rounder"></span>
+                                <span class="qual__line"></span>
+                            </div>
+                            <div>
+                                <h3 class="qual__title">---</h3>
+                                <span class="qual__subtitle"><div class=""></div></span>
+                                <div class="qual__cal">
+                                    <i class="bx bxs-calendar-star"></i> 20xx-20xx
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <!-- Qual 5TH -->
+                        <div class="qual__data">
+                            <div>
+                                <h3 class="qual__title"> Bsc (PCM)</h3>
+                                <span class="qual__subtitle">JNCU, Ballia</span>
+                                <div class="qual__cal">
+                                    <i class="bx bxs-calendar-star"></i> 2019-2022
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qual__rounder"></span>
+                                <span class="qual__line"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services">
+            <h2 class="section__title">SERVICES</h2>
+            <span class="section__subtitle">What I offer</span>
+
+
+            <div class="services__container container grid">
+                <!-- ============SERVICES 1========== -->
+                <div class="services__content">
+                    <div>
+                        <i class='bx bxs-layout services__icon'></i>
+                        <h3 class="services__title">FRONTEND <br>DEVELOPER</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+              View More
+              <i class='bx bxs-right-arrow button__icon'></i>
+            </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="chess">Dev Tools Used : Bootstrap<br>| Can Develop..</h4>
+                            <i class='bx bx-x services__modal-close'></i>
+
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class='bx bx-check-shield services__modal-icon'></i>
+                                    <p class="chess">Responsive Websites For Mobile,Tablets, Laptops</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class='bx bx-check-shield services__modal-icon'></i>
+                                    <p class="chess">Functional and Attractive Web Layouts </p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class='bx bx-check-shield services__modal-icon'></i>
+                                    <p class="chess">Simple beautiful User Interface</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class='bx bx-check-shield services__modal-icon'></i>
+                                    <p class="chess"> Web Animations PreLoaders for elegant Look</p>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+                <!-- ============SERVICES 2========== -->
+                <div class="services__content">
+                    <div>
+                        <i class='bx bxs-layout services__icon'></i>
+                        <h3 class="services__title">UI/UX<br>DESIGNER</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+              View More
+              <i class='bx bxs-right-arrow button__icon'></i>
+            </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <!-- <h4 class="chess">Design Tool Used: Adobe XD,Figma<br>| Can Design...</h4> -->
+                            <h4 class="chess">STARTING SOON </h4>
+                            <i class='bx bx-x services__modal-close'></i>
+
+<!-- 
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class='bx bx-check-shield services__modal-icon'></i>
+                                    <p class="chess">Elegant and Adaptive Layouts</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class='bx bx-check-shield services__modal-icon'></i>
+                                    <p class="chess">Creative Prototyping</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class='bx bx-check-shield services__modal-icon'></i>
+                                    <p class="chess"> UX element interactions.</p>
+                                </li> -->
+
+                                <!-- <li class="services__modal-service">
+                  <i class='bx bx-check-shield services__modal-icon'></i>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </li> -->
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- ============SERVICES 3========== -->
+                <div class="services__content">
+                    <div>
+                        <i class='bx bxs-layout services__icon'></i>
+                        <h3 class="services__title">VIDEO/PHOTO <br>EDITING</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+              View More
+              <i class='bx bxs-right-arrow button__icon'></i>
+            </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="chess"> Tools Used : Adobe P.PRO , Inshot <br>| Can Create ...</h4>
+                            <i class='bx bx-x services__modal-close'></i>
+
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class='bx bx-check-shield services__modal-icon'></i>
+                                    <p class="chess"> Social, Cinematic and Music videos</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class='bx bx-check-shield services__modal-icon'></i>
+                                    <p class="chess">Transitions Animations and Lyrical EDITS</p>
+                                </li>
+
+                                <!-- <li class="services__modal-service">
+                  <i class='bx bx-check-shield services__modal-icon'></i>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </li>
+
+                <li class="services__modal-service">
+                  <i class='bx bx-check-shield services__modal-icon'></i>
+                  <p>Lorem ipsum dolor sit amet.</p> -->
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- ============SERVICES 4========== -->
+                <div class="services__content">
+                    <div>
+                        <i class='bx bxs-layout services__icon'></i>
+                        <h3 class="services__title">BACKEND <br>DEVELOPER</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+              View More
+              <i class='bx bxs-right-arrow button__icon'></i>
+            </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="chess">STARTING SOON<br></h4>
+                            <i class='bx bx-x services__modal-close'></i>
+
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <!-- <i class='bx bx-check-shield services__modal-icon'></i> -->
+                                    <!-- <p>Lorem ipsum dolor sit amet.</p>
+                </li>
+
+                <li class="services__modal-service">
+                  <i class='bx bx-check-shield services__modal-icon'></i>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </li>
+
+                <li class="services__modal-service">
+                  <i class='bx bx-check-shield services__modal-icon'></i>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </li>
+
+                <li class="services__modal-service">
+                  <i class='bx bx-check-shield services__modal-icon'></i>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle"> Most Recent Work</span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- ====== PORTFOLIO  1===== -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./portfolio1.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">WEB PROJECTS</h3>
+                            <p class="portfolio__des">Responsive,Elegant,Funtional and Quality Content Web pages By using Html,CSS,JavaScript and Some Popular Frameworks
+                            </p>
+                            <a href="" class="button  button--flex button--small portfolio__button">
+                  Demo
+                  <i class='bx bxs-chevron-right-circle button__icon'></i>
+                 
+                </a> Adding soon
+                        </div>
+                    </div>
+                    <!-- ====== PORTFOLIO  2===== -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./portfolio2.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">VIDEO EDITS</h3>
+                            <p class="portfolio__des">Creative Rhythmic Beat Sync and HD Edits using Adobe Premium Pro,Inshot
+                            </p>
+                            <a href="" class="button button--flex button--small portfolio__button">
+                  Demo
+                  <i class='bx bxs-chevron-right-circle button__icon'></i>
+                </a>Adding soon
+
+                        </div>
+                    </div>
+                    <!-- ====== PORTFOLIO  3===== -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./portfolio1.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">UI/UX DESIGNS</h3>
+                            <p class="portfolio__des">Collaborative Stylish and Prototyping User Interface With the Help of Adobe XD
+                            </p>
+                            <a href="" class="button button--flex button--small portfolio__button">
+                  Demo
+                  <i class='bx bxs-chevron-right-circle button__icon'></i>
+                </a>Adding soon
+
+                        </div>
+                    </div>
+                    <!-- ====== PORTFOLIO  4===== -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./portfolio3.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">PHOTO EDITS</h3>
+                            <p class="portfolio__des">Classy Elegant Asthetic Photoshop Edits Using Adobe Photoshop
+                            </p>
+                            <a href="" class="button button--flex button--small portfolio__button">
+                  Demo
+                  <i class='bx bxs-chevron-right-circle button__icon'></i>
+                  
+                </a> Adding soon
+                        </div>
+                    </div>
+
+                </div>
+                <!-- ADD ARROWS -->
+                <div class="swiper-button-next">
+                    <i class='bx bxs-chevron-right swiper-portfolio-icon'></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class='bx bxs-chevron-left swiper-portfolio-icon'></i>
+                </div>
+                <!-- PAGEINATION -->
+                <!-- <div class="swiper-pagination"></div> -->
+            </div>
+        </section>
+
+
+        <!--==================== HOBBIES--(SERVICES)====================-->
+        <section class="services section" id="services">
+            <h2 class="section__title">HOBBIES</h2>
+            <span class="section__subtitle">Leisure Time</span>
+
+
+            <div class="services__container container grid">
+
+                <!-- ============SERVICES 2========== -->
+
+                <!-- ============SERVICES 3========== -->
+                <div class="services__content2">
+                    <div>
+                        <i class='bx bx-football services__icon'></i>
+                        <h3 class="services__title_Port"> <br>FOOTBALL</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--lin services__button">
+              View More
+              <i class='bx bxs-right-arrow button__icon'></i>
+            </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <!-- <h4 class="services__modal-title"> XAXA <br>AASaasassa</h4> -->
+                            <i class='bx bx-x services__modal-close' style="color: gold; size: 20px;"></i>
+                            <img src="./football.jpg" alt="" width="340px">
+
+
+                            <ul class="services__modal-services grid">
+                                <!-- <li class="services__modal-service">
+                  <i class='bx bx-check-shield services__modal-icon'></i>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </li>
+
+                <li class="services__modal-service">
+                  <i class='bx bx-check-shield services__modal-icon'></i>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </li> -->
+
+                                <!-- <li class="services__modal-service">
+                  <i class='bx bx-check-shield services__modal-icon'></i>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </li>
+
+                <li class="services__modal-service">
+                  <i class='bx bx-check-shield services__modal-icon'></i>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </li> -->
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- ============SERVICES 4========== -->
+                <div class="services__content2">
+                    <div>
+                        <i class='bx bxs-chess services__icon'></i>
+                        <!-- <img src="../PORTFOLIO WEB/assets/img/chess.jpg" alt="" width="230px"> -->
+
+                        <h3 class="services__title_Port"> <br>Gaming</h3>
+                    </div>
+
+
+                    <span class="button button--flex button--small button--lin services__button">
+              View More
+              <i class='bx bxs-right-arrow button__icon'></i>
+            </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <!-- <h4 class="services__modal-title"> XAXA <br>AASaasassa</h4> -->
+                            <i class='bx bx-x services__modal-close'></i>
+                            <img src="./gaming.jpg" alt="" width="230px">
+
+
+                            <ul class="services__modal-services grid">
+                                <!-- <li class="services__modal-service">
+                  <i class='bx bx-check-shield services__modal-icon'></i>
+                  
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </li>
+
+                <li class="services__modal-service">
+                  <i class='bx bxs-chess services__modal-icon'></i>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </li> -->
+
+                                <li class="services__modal-service">
+                                    <i class='bx bx-check-shield services__modal-icon'></i>
+                                    <p class="chess">Joined From March 2019 .</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                
+                                    <p class="chess"> BGMI id is 5649369852 .</p>
+                                </li>
+
+
+
+                                <!-- <li class="services__modal-service">
+                                    <i class='bx bx-check-shield services__modal-icon'></i>
+                                    <p> <a href="https://www.chess.com/member/aquarius3062" style="color: gold;"><i class='bx bxs-info-circle' style='color:#eeff06'  ></i> <b> My Chess Profile</b></a></p>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PROJECT IN MIND ====================-->
+
+
+
+
+
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer" id="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <span class="footer__subtitle"> The Creator</span>
+                    <h1 class="footer__title">Suraj gupta</h1>
+
+
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#about" class="footer__link">ABOUT  </a>
+                    </li>
+
+                    <li>
+                        <a href="#skills" class="footer__link">SKILLS</a>
+                    </li>
+                    <li>
+                        <a href="#services" class="footer__link">SERVICES</a>
+                    </li>
+                </ul>
+                <div class="footer__social">
+                    <!-- <a href="#" class="footer__social">
+              <i class='bx bxl-facebook-square' >FB</i>
+            </a>
+
+             <a href=" " class="footer__social"></a>
+             <i class='bx bxl-instagram-alt'>Insta</i>
+            </a> 
+
+            <a href="" class="footer__social"></a>
+              <i class='bx bxl-twitter' >Tweet</i>
+            </a> -->
+                    <a href="https://touch.facebook.com/profile.php?ref=bookmarks" class="footer__social">
+              <i class='bx bxl-facebook-square' ></i>
+            </a>
+
+                    <a href="https://www.instagram.com/surajgupta03722/" class="footer__social">
+              <i class='bx bxl-instagram'></i>
+            </a>
+
+                    <a href="https://twitter.com/Surajgu49516818" class="footer__social">
+              <i class='bx bxl-twitter' ></i>
+            </a>
+                    <p class="footer__copy">&#169; Copyright 2021 Suraj gupta.<br> All rights Reseverd</p>
+                    <br>
+ 
+                </div>
+
+
+            </div>
+
+        </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="" class="scrollup" id="scroll-up">
+      <i class='bx bxs-upvote  scrollup__icon'></i>
+    </a>
+    <!--==================== SWIPER JS ====================-->
+    <script src="./swiper-bundle.min.js"></script>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <!--==================== MAIN JS ====================-->
+    <script src="./main.js"></script>
+
+
+    <script type="text/javascript">
+        document.addEventListener("contextmenu", function(xxaass) {
+            xxaass.preventDefault();
+        })
+    </script>
+</body>
+
+</html>
